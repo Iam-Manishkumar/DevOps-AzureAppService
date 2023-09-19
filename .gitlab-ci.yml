@@ -5,10 +5,10 @@ stages:
 
 build_and_test:
   stage: build_and_test
-  # specify a suitable image where npm is available
+  image: node:Latest
   script:
     - npm install
-    # test the application
+    - npm run test
 
 containerize:
   stage: containerize
