@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("./app");
 
-describe("The application", () => {
+describe("Company X application", () => {
   it("should respond to a GET request", async () => {
     await request(app)
       .get("/")
