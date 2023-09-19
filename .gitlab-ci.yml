@@ -31,5 +31,5 @@ deploy:
   script:
     - echo "Deploy to Azure App Service"
   environment:
-    # define the environment name
-    # define the environment URL
+    name: Production Environment Company X
+    url: https://devopsmanish.scm.azurewebsites.net
